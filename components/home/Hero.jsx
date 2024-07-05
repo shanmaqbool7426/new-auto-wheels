@@ -1,5 +1,6 @@
 import React from "react";
 import HeroTabs from "@/components/hero-tabs";
+
 import { BsArrowRight } from "react-icons/bs";
 
 const Hero = () => {

@@ -1,5 +1,10 @@
 import { useDashboardStore } from '../../store';
 
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
+import { FaRegStar } from "react-icons/fa";
+
 const TopComparisons = () => {
   const { data } = useDashboardStore();
   return (

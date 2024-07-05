@@ -1,4 +1,9 @@
 import { useDashboardStore } from '../../store';
+import { GearsHandle } from "@/components/Icons";
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
+import { FaLocationDot, FaCalendarDays, FaClock } from "react-icons/fa6";
 
 const BrowseByMake = () => {
   const { data } = useDashboardStore();
